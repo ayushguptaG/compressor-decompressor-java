@@ -12,4 +12,5 @@
         <exec.mainClass>com.mycompany.compressor.decompressor.CompressorDecompressor</exec.mainClass>
     </properties>
     <name>compressor-decompressor-proj_2</name>
+    // testing
 </project>
