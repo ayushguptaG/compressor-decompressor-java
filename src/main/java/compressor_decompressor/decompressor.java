@@ -20,7 +20,7 @@ public class decompressor {
         String fileDirectory= file.getParent();
         FileInputStream fis= new FileInputStream(file);
         GZIPInputStream gzipIS= new GZIPInputStream(fis);
-        FileOutputStream fos= new FileOutputStream(fileDirectory + "/DecompressedFileCheck");
+        FileOutputStream fos= new FileOutputStream(fileDirectory + "/DecompressedFileCheck.txt");
         
         byte[] buffer= new byte[1024];
         

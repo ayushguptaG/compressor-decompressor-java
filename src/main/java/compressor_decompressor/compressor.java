@@ -36,7 +36,7 @@ public class compressor {
     
     public static void main(String[] args) throws IOException{
         
-        File path =new File("G:\\compressor-project-2\\compress.txt");
+        File path =new File("/G:/compressor-project-2/compress");
         method(path);
         
         

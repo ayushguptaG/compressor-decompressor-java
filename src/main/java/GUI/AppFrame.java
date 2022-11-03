@@ -30,15 +30,15 @@ public class AppFrame extends JFrame implements ActionListener{
         
         compressButton= new JButton("Select file to Compress");
         compressButton.addActionListener(this);
-        compressButton.setBounds(20,100,200,30);
+        compressButton.setBounds(20,120,200,30);
         
         decompressButton = new JButton("Select file to Decompress");
         decompressButton.addActionListener(this);
-        decompressButton.setBounds(250, 100, 200, 30);
+        decompressButton.setBounds(260, 120, 200, 30);
         
         this.add(compressButton);
         this.add(decompressButton);
-        this.setSize(500, 200);
+        this.setSize(500, 250);
         this.getContentPane().setBackground(Color.black);
         
         this.setVisible(true);
